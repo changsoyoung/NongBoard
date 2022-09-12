@@ -1,12 +1,3 @@
-###############################################################################
-### Simple demo on gesture recognition
-### Input : Live video of hand
-### Output: 2D display of hand keypoint 
-###         with gesture classification
-### Usage : python 02_gesture.py -m train (to log data)
-###       : python 02_gesture.py -m eval  (to perform gesture recognition)
-###############################################################################
-
 import cv2
 import argparse
 import numpy as np
